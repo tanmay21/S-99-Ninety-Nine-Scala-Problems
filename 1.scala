@@ -1,3 +1,4 @@
+//Find the last element of a list
 import scala.io.StdIn
 import scala.math._
 import scala.collection.mutable.ArrayBuffer
