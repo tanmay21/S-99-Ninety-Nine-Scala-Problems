@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Magician\Documents\Github\S-99-Ninety-Nine-Scala-Problems\2.scala:8:8: test_1 is already defined as object test_1[0m
-[0m[[0m[31merror[0m] [0m[0mobject test_1{[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Magician\Documents\Github\S-99-Ninety-Nine-Scala-Problems\35.scala:15:9: value append is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m				ans.append(i)[0m
+[0m[[0m[31merror[0m] [0m[0m				    ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
