@@ -1,15 +1,15 @@
-//Determine the prime factors of a given positive integer (2).
+//Calculate Euler's totient function phi(m) (improved).
 import scala.io.StdIn
 import scala.math._
 import scala.collection.mutable.ArrayBuffer
 import java.io.PrintWriter
 import scala.io.Source
 
-object test_36{
+object test_37{
 	def main(args:Array[String]){
 		var n=10                                 
 		var i=2                                   
-		var num=scala.collection.mutable.Map[Int,Int]()
+		var num=scala.collection.mutable.Map[Double,Double]()
 	                                                 
 		while(n>1){
 			var count=0
@@ -22,6 +22,13 @@ object test_36{
 			}
 			i+=1
 		}
-		print(num)
+		def totient(n:Double,m:Double):Double={
+			(n-1)*pow(n,m-1)
+		}
+		var ans:Double=1
+		for ((k,v) <- num){
+			ans*=totient(k,v)
+		}
+		print(ans)
 	}
 }
