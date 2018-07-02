@@ -14,7 +14,7 @@ object test_16{
  		
  		while(j<list.length){
  			list-=list(j)
- 			j+=2
+ 			j+=n-1
  		}
  		print(list)
 	}
